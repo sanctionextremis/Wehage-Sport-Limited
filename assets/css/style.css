@@ -1,24 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b3;
+    background-color: #100e0c;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: #d1ad4c;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: #d1ad4c;
 }
 
 header nav {
@@ -37,15 +38,39 @@ header nav ul li a {
 }
 
 body {
-    color: #39a6b2;
+    color: #d1ad4c;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+footer {
+    background: #a87d30;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #d1ad4c;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #d1ad4c
+}
 
 
-
-
-
+/* colour scheme
+#024e76 = #a87d30
+#fce138 = #d1ad4c
+#39a6b2= #100e0c
+*/
 
 /* {
     margin: 0;
