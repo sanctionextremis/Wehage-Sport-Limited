@@ -164,11 +164,11 @@ body {
     font-size: 38px;
 }
 
-.trainers {
+.cars {
     text-align: center;
 }
 
-.trainer {
+.automobile {
     width: 900px;
     margin: 0 auto 30px auto;
     background: #a87d30;
@@ -176,13 +176,13 @@ body {
     overflow: auto;
 }
 
-.trainer img {
+.automobile img {
     width: 35%;
     float: left;
     min-height: 100;
 }
 
-.trainer-bio {
+.automobile-bio {
     padding: 35px;
     float: left;
     width: 65%;
@@ -196,18 +196,18 @@ body {
     text-align: right;
 }
 
-.trainer-bio h3 {
+.automobile-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
 }
 
-.trainer-bio h4 {
+.automobile-bio h4 {
     font-weight: lighter;
     font-size: 26px;
     margin-bottom: 25px;
 }
 
-.trainer-bio p {
+.automobile-bio p {
     font-size: 17px;
     line-height: 1.3;
 }
